@@ -15,9 +15,20 @@
         "show": true
       },
       {
+        "name": "official-theme-react",
+        "cName": "官方主题",
+        "eName": "Official Theme"
+      },
+      {
         "name": "theme-react",
         "cName": "主题定制",
         "eName": "Customize Theme",
+        "show": true
+      },
+      {
+        "name": "migrate-from-v1",
+        "cName": "从 v1 升级到 v2",
+        "eName": "Migrate-from-v1",
         "show": true
       },
       {
