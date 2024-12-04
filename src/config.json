@@ -642,6 +642,7 @@
           "sort": 1,
           "show": true,
           "taro": true,
+          "v14": true,
           "author": "dsj"
         },
         {
@@ -1003,8 +1004,8 @@
           "sort": 17,
           "show": true,
           "taro": true,
-          "author": "songsong",
-          "v14": true
+          "v14": true,
+          "author": "songsong"
         },
         {
           "version": "2.0.0",
