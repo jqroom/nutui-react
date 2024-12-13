@@ -58,6 +58,7 @@
     "dev:taro:jdrn": "pnpm run clone:rn && pnpm --dir ./packages/nutui-taro-demo dev:jdrn",
     "dev:taro:rn:dark": "THEME=dark pnpm dev:taro:rn",
     "dev:taro": "pnpm run update:taro:entry && pnpm --dir ./packages/nutui-taro-demo dev",
+    "dev:taro:h5": "pnpm dev:taro h5",
     "dev:jdtaro": "pnpm run update:taro:entry && JD=1 pnpm --dir ./packages/nutui-taro-demo dev",
     "dev:jdtaro:jdharmonycpp": "pnpm run clone:jdharmony cpp &&pnpm run update:taro:entry && JD=1 pnpm --dir ./packages/nutui-taro-demo dev:jdharmonycpp",
     "dev:jdtaro:jdharmony": "pnpm run clone:jdharmony  && pnpm run update:taro:entry && JD=1 pnpm --dir ./packages/nutui-taro-demo dev:jdharmony",
