@@ -509,12 +509,9 @@ plugins: [
 
 #### TextArea
 
-- `maxlength` 重命名为 `maxLength`
-- `readonly` 重命名为 `readOnly`
-- `limitShow` 重命名为 `showCount`
-- `autosize` 重命名为 `autoSize`
-- 移除 `textAlign`，可通过 `style` 传入
-- `defaultValue` 改为非受控，增加受控值 `value`
+- 新增 `plain` 属性，标记为 纯文本型；该值默认为false，标记为 container 容器型；
+- 新增 `status` 属性，值为 `default` | `error`，可定义输入框的状态；
+- 删掉一些可使用基础样式变量，并且建议使用基础样式变量的样式变量，比如 `$textarea-font` `$textarea-limit-color` `$textarea-disabled-color`
 
 #### Uploader
 
