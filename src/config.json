@@ -493,6 +493,7 @@
           "desc": "多选按钮组",
           "sort": 11,
           "show": false,
+          "v15": true,
           "exportEmpty": true,
           "author": "oasis"
         },
@@ -551,6 +552,7 @@
           "sort": 3,
           "show": true,
           "taro": true,
+          "v15": true,
           "author": "swag~jun"
         }
       ]
@@ -625,6 +627,7 @@
           "sort": 10,
           "exportEmpty": true,
           "show": false,
+          "v15": true,
           "author": "oasis"
         },
         {
@@ -816,7 +819,7 @@
           "sort": 15,
           "show": true,
           "taro": true,
-          "v14":true,
+          "v15":true,
           "author": "mike8625"
         },
         {
@@ -1062,6 +1065,7 @@
           "sort": 27,
           "show": true,
           "taro": true,
+          "v15": true,
           "author": "swag~jun"
         },
         {
