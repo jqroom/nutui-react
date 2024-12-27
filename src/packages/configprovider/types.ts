@@ -817,6 +817,7 @@ export type NutCSSVariables =
   | 'nutuiLoadingIconSize'
   | 'nutuiLoadingColor'
   | 'nutuiLoadingFontSize'
+  | 'nutuiLoadingLottieBackground'
   | 'nutuiResultpageWidth'
   | 'nutuiResultpageIconSize'
   | 'nutuiResultpageIconMarginBottom'

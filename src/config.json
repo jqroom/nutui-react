@@ -816,6 +816,7 @@
           "sort": 15,
           "show": true,
           "taro": true,
+          "v14":true,
           "author": "mike8625"
         },
         {
@@ -1050,6 +1051,17 @@
           "taro": true,
           "v15": true,
           "author": "liukun"
+        },
+        {
+          "version": "3.0.0",
+          "name": "Lottie",
+          "type": "component",
+          "cName": "动画/动效",
+          "desc": "给子元素添加动画效果",
+          "sort": 27,
+          "show": true,
+          "taro": true,
+          "author": "swag~jun"
         },
         {
           "version": "3.0.0",
