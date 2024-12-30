@@ -1,7 +1,7 @@
-import React from 'react'
-import { Cell, Button } from '@nutui/nutui-react-taro'
 import { ArrowRight, User } from '@nutui/icons-react-taro'
-import { redirectTo, navigateTo } from '@tarojs/taro'
+import { Button, Cell } from '@nutui/nutui-react-taro'
+import { navigateTo, redirectTo } from '@tarojs/taro'
+import React from 'react'
 
 const Demo6 = () => {
   const onJumpclick = (
