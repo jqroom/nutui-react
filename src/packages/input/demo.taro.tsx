@@ -1,5 +1,5 @@
-import React from 'react'
 import Taro from '@tarojs/taro'
+import React from 'react'
 import { useTranslate } from '@/sites/assets/locale/taro'
 import Header from '@/sites/components/header'
 
@@ -17,6 +17,7 @@ import Demo11 from './demos/taro/demo11'
 import Demo12 from './demos/taro/demo12'
 import Demo13 from './demos/taro/demo13'
 import Demo14 from './demos/taro/demo14'
+import Demo15 from './demos/taro/demo15'
 
 const InputDemo = () => {
   const [translated] = useTranslate({
@@ -54,6 +55,7 @@ const InputDemo = () => {
       text1: '文本',
       password1: '带密码可见',
       wordCount: '字数统计',
+      prefixAndSuffix: '前缀图和后缀图',
     },
     'en-US': {
       basic: 'Basic usage',
@@ -89,6 +91,7 @@ const InputDemo = () => {
       text1: 'Text',
       password1: 'Visible with password',
       wordCount: 'Word count',
+      prefixAndSuffix: 'prefix and suffix',
     },
   })
 
@@ -127,6 +130,8 @@ const InputDemo = () => {
         <Demo13 />
         <h2>{translated.border}</h2>
         <Demo14 />
+        <h2>{translated.prefixAndSuffix}</h2>
+        <Demo15 />
       </div>
     </>
   )
