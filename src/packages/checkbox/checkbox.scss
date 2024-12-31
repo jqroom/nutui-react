@@ -24,6 +24,10 @@
     font-size: $checkbox-label-font-size;
     color: $checkbox-label-color;
 
+    &-active {
+      color: $color-primary;
+    }
+
     &-disabled {
       color: $color-text-disabled;
     }

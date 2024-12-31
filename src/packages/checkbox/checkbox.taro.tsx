@@ -154,6 +154,7 @@ export const Checkbox: FunctionComponent<
     return (
       <span
         className={classNames(`${classPrefix}-label `, {
+          [`${classPrefix}-label-active`]: innerChecked,
           [`${classPrefix}-label-disabled`]: innerDisabled,
         })}
       >
