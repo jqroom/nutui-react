@@ -15,7 +15,7 @@ const Demo15 = () => {
       >
         <Search />
         <Input
-          placeholder="请输入短信验证码"
+          placeholder="请输入内容"
           style={{ '--nutui-input-padding': '10px' }}
         />
         <Marshalling />
